@@ -1,0 +1,148 @@
+.heading h1{
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+.heading h2{
+	text-align: left;
+	background-img: url()
+	color: white;
+}
+.heading h3{
+    text-align: right;
+	background-color: black;
+	color: white;
+}
+.heading{
+	background-color: #lightblue;
+}
+#one{
+	border-style: solid;
+	border-color: rgba(130, 150, 220, 0.5);
+	}
+#two{
+	border-style: dotted;
+	border-color: darkblue;
+	}
+#three{
+	border-style: dashed;
+	border-color: red;
+	}
+#four{
+	border-style: groove;
+	border-color: brown;
+	}
+#five{
+	border-style: inset;
+	border-color:orange;
+	}
+#six{
+	border-style: outset;
+	border-color: pink;
+	}
+#seven{
+	border-style: double;
+	border-color: royalblue;
+	}
+#eight{
+	border-style: ridge;
+	border-color: darkolivegreen;
+	}
+#nine{
+	border-style: dashed double;
+	border-color: mistyrose;
+	border-width: medium;
+	}
+#ten{
+	border-style: double dotted;
+	border-color: burlywood;
+	border-width: all;
+	}
+#eleven{
+	border-style: solid dotted;
+	border-color: brown;
+	border-width: initial;
+	}
+#twelve{
+	border-style: solid double;
+	border-color: thistle;
+	border-width: thick;
+	}
+#thirteen{
+	border-style: solid ;
+	border-color: blueviolett;
+	margin: 25px;
+	}
+#forteen{
+	border-style: solid double;
+	border-color: lightcoral;
+	margin-top: 20px;
+	}
+#fifteen{
+	border-style: solid ;
+	border-color: steelblue;
+	margin-bottom: 20px;
+	}
+#sixteen{
+	border-style: solid double;
+	border-color: slategray;
+	margin-left: 20px;
+	}
+#seventeen{
+	border-style: solid ;
+	border-color: midnightblue;
+	margin-right: 20px;
+	}
+#eighteen{
+	background-color: lightgray;
+   width: 300px;
+   border: 15px solid black;
+   padding: 30px;
+   margin: 20px;
+	}
+#nineteen{
+	border-style: solid ;
+	border-color: crimson;
+	margin-right: thick;
+	}
+#twenty{
+	border-style: solid double;
+	border-color: springgreen;
+	margin-right: thick;
+	}
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+  border: solid double;
+  border-color: red;
+}
+.twenty-one{
+  background-color: #eee;
+  width: 200px;
+  height: 50px;
+  border: 1px dotted black;
+  overflow: scroll;
+}
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.anime{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
